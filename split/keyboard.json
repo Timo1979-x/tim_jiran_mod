@@ -2,7 +2,7 @@
     // "$schema": "https://raw.githubusercontent.com/qmk/qmk_firmware/refs/heads/master/data/schemas/keyboard.jsonschema",
     "$schema": "/home/tim/work/qmk_firmware/data/schemas/keyboard.jsonschema",
     // Имя клавиатуры. При подключении к компу видно как имя устройства
-    "keyboard_name": "Tergo keyboard",
+    "keyboard_name": "tergo",
     // Производитель. Обычно это никнейм на гитхабе. При подключении к компу видно как часть имени устройства
     "manufacturer": "Timo1979-x",
     "maintainer": "Tim Lukashevich",
@@ -13,7 +13,8 @@
         "mousekey": true,
         "extrakey": true,
         "nkro": false,
-        "rgblight": true
+        "rgblight": true,
+        "oled": true
     },
     "matrix_pins": {
         "cols": ["GP21", "GP20", "GP19", "GP18", "GP17", "GP16"],

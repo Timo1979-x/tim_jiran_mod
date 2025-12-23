@@ -31,3 +31,8 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+// значения по умолчанию для oled:
+// #define I2C_DRIVER I2CD1
+// #define I2C1_SDA_PIN GP2
+// #define I2C1_SCL_PIN GP3
